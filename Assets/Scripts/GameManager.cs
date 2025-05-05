@@ -81,7 +81,6 @@ public class GameManager : MonoBehaviour
         timeLeft += extraTime;
     }
 
-    // Scene Switching
     public void StartGame()
     {
         SceneManager.LoadScene("GameScene");
