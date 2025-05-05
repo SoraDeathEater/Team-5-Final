@@ -1,13 +1,11 @@
 using System.Linq;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    // Using for Scene Changes, UI, and game pausing
-    //Empty for now, I, Sora Vasquez, am working on this slowly but surely n.n (this will be deleted later) 
-    
-=======
     public int score = 0;
     public int playerLives = 3;
     public float timeLeft = 60f;
@@ -101,5 +99,4 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
->>>>>>> Stashed changes
 }
