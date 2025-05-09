@@ -350,6 +350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 620593334}
   - component: {fileID: 620593333}
+  - component: {fileID: 620593336}
+  - component: {fileID: 620593335}
   m_Layer: 0
   m_Name: Enemy Spawner 2
   m_TagString: Untagged
@@ -386,6 +388,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &620593335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620593332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5462b8b203c151641887e7c34b79bcaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &620593336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620593332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94aed0215fbb43e0a2a16662c01409d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &731396252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1701,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1978470726}
   - component: {fileID: 1978470727}
+  - component: {fileID: 1978470729}
+  - component: {fileID: 1978470728}
   m_Layer: 0
   m_Name: Enemy Spawner
   m_TagString: Untagged
@@ -1709,6 +1739,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eyeballPrefab: {fileID: 896237428158754502, guid: 5a4d58620b0303c458cfd83962e79919, type: 3}
   timeBetweenSpawns: 2
+--- !u!114 &1978470728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978470725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5462b8b203c151641887e7c34b79bcaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &1978470729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978470725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94aed0215fbb43e0a2a16662c01409d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
