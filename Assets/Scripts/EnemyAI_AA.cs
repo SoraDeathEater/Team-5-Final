@@ -13,10 +13,8 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
         
-        transform.Translate(verticalInput * Vector2.up * speed * Time.deltaTime);
+        transform.Translate( Vector2.down * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
